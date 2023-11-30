@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+img,
+li {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --paymaryColor: #ff4655;
+  --whiteColor: #fff;
+}
+/* =============== nevber part html start =============== */
+#navbar_part {
+  background: url(../imgs/banner\ 1.png);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+/* =============== nevber part html end =============== */
