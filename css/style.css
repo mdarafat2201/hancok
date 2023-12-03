@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --paymaryColor: #ff4655;
+  --whiteColor: #fff;
+  --paymary_background_color: #121212;
+  --secondary_background_color: #191919;
+  --Barlow: "Barlow", sans-serif;
+  --Oswald: "Oswald", sans-serif;
+}
+
+/* ================= common css stat ================ */
 * {
   margin: 0;
   padding: 0;
@@ -29,15 +41,16 @@ li {
   margin: 0;
   padding: 0;
 }
-:root {
-  --paymaryColor: #ff4655;
-  --whiteColor: #fff;
-}
+/* ================= common css end ================ */
+
 /* =============== nevber part html start =============== */
 #navbar_part {
   background: url(../imgs/banner\ 1.png);
   background-position: center;
   background-size: cover;
   height: 109vh;
+}
+#navbar_part .coustom_navbar ul li a {
+  color: var(--whiteColor);
 }
 /* =============== nevber part html end =============== */
