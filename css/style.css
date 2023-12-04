@@ -45,12 +45,32 @@ li {
 
 /* =============== nevber part html start =============== */
 #navbar_part {
+  background-color: var(--paymary_background_color);
+}
+/*#navbar_part {
   background: url(../imgs/banner\ 1.png);
   background-position: center;
   background-size: cover;
   height: 109vh;
-}
+}*/
 #navbar_part .coustom_navbar ul li a {
   color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+#navbar_part .menu_icons a {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 14px;
+  font-weight: 400;
+}
+#navbar_part .menu_icons {
+  column-gap: 25px;
+  align-items: center;
+}
+#navbar_part .menu_icons a i {
+  margin-right: 7px;
 }
 /* =============== nevber part html end =============== */
