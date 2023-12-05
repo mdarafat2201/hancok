@@ -188,6 +188,10 @@ li {
 /* =============== about part css start =============== */
 #abuot_part {
   background-color: var(--paymary_background_color);
+  padding: 34px 0 80px;
+}
+#abuot_part .about_left_text {
+  padding-right: 82px;
 }
 #abuot_part .about_left_text h2 {
   color: var(--whiteColor);
@@ -195,14 +199,13 @@ li {
   font-size: 38px;
   font-weight: 600;
   letter-spacing: 2.66px;
-  margin-top: 35px;
   margin-bottom: 64px;
   position: relative;
 }
 #abuot_part .about_left_text h2::before {
   position: absolute;
   content: "";
-  left: 33%;
+  left: 38%;
   bottom: 8%;
   width: 90px;
   height: 4px;
@@ -210,13 +213,44 @@ li {
 }
 #abuot_part .about_text {
   color: #fff;
-  margin: 200px 0 0 80px;
+  margin: 150px 0 50px;
 }
 #abuot_part .about_text h3 {
   color: var(--whiteColor);
   font-family: var(--Oswald);
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 600;
   letter-spacing: 0.81px;
+  margin-bottom: 7px;
+}
+#abuot_part .about_text h5 {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+#abuot_part .about_text h5 i {
+  color: var(--paymaryColor);
+  margin-right: 10px;
+}
+#abuot_part .about_text p {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#abuot_part .about_text .coustom_button {
+  background-color: var(--whiteColor);
+}
+#abuot_part .about_text .coustom_button a {
+  color: var(--paymary_background_color);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#abuot_part .about_text .coustom_button a i {
+  margin-left: 10px;
 }
 /* =============== about part css end =============== */
