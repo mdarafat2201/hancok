@@ -43,7 +43,7 @@ li {
 }
 /* ================= common css end ================ */
 
-/* =============== nevber part html start =============== */
+/* =============== nevber part css start =============== */
 #navbar_part {
   background-color: var(--paymary_background_color);
 }
@@ -68,14 +68,14 @@ li {
 #navbar_part .menu_icons a i {
   margin-right: 7px;
 }
-/* =============== nevber part html end =============== */
-/* =============== banner part html start =============== */
+/* =============== nevber part css end =============== */
+/* =============== banner part css start =============== */
 #banner_part {
   background: url(../imgs/banner\ 1.png);
   background-position: center;
   background-size: cover;
   height: 109vh;
-  padding: 280px 0 108px;
+  padding: 220px 0 108px;
 }
 #banner_part .banner_text {
   color: #fff;
@@ -90,17 +90,37 @@ li {
 #banner_part .banner_text h1 {
   color: var(--whiteColor);
   font-family: var(--Oswald);
-  font-size: 53px;
+  font-size: 50px;
   font-weight: 600;
   position: relative;
 }
 #banner_part .banner_text h1::before {
   position: absolute;
   content: "";
-  left: 83%;
+  left: 80%;
   bottom: 12%;
   width: 90px;
   height: 4px;
   background-color: var(--whiteColor);
 }
-/* =============== banner part html end =============== */
+#banner_part .banner_text p {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 40px;
+  margin: 5px 0 48px;
+}
+#banner_part .banner_text .coustom_button {
+  background-color: var(--whiteColor);
+}
+#banner_part .banner_text .coustom_button a {
+  color: var(--paymary_background_color);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#banner_part .banner_text .coustom_button a i {
+  margin-left: 10px;
+}
+/* =============== banner part css end =============== */
