@@ -254,3 +254,9 @@ li {
   margin-left: 10px;
 }
 /* =============== about part css end =============== */
+/* =============== about part css end =============== */
+#games_part {
+  background-color: var(--secondary_background_color);
+  padding: 90px 0;
+}
+/* =============== about part css end =============== */
