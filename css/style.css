@@ -311,6 +311,41 @@ li {
   margin: 15px 15px 11px;
 }
 /* =============== games part css end =============== */
-/* =============== games part css start =============== */
-
-/* =============== games part css end =============== */
+/* =============== live video part css start =============== */
+#live_video_part {
+  padding: 90px 0;
+  background-color: var(--paymary_background_color);
+}
+#live_video_part .live_video_left h2 {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+  margin-bottom: 70px;
+  line-height: 50px;
+  position: relative;
+}
+#live_video_part .live_video_left h2::before {
+  position: absolute;
+  content: "";
+  left: 130px;
+  bottom: 12px;
+  width: 85px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+#live_video_part .live_video_left {
+  position: relative;
+}
+#live_video_part .live_video_left .hover_video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#live_video_part .live_video_left .hover_video a {
+  color: red;
+  text-align: center;
+  margin-right: 50%;
+}
+/* =============== live video part css end =============== */
