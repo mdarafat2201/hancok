@@ -316,7 +316,7 @@ li {
   padding: 90px 0;
   background-color: var(--paymary_background_color);
 }
-#live_video_part .live_video_left h2 {
+#live_video_part .video_taitel h2 {
   color: var(--whiteColor);
   font-family: var(--Oswald);
   font-size: 30px;
@@ -326,7 +326,7 @@ li {
   line-height: 50px;
   position: relative;
 }
-#live_video_part .live_video_left h2::before {
+#live_video_part .video_taitel h2::before {
   position: absolute;
   content: "";
   left: 130px;
@@ -337,15 +337,20 @@ li {
 }
 #live_video_part .live_video_left {
   position: relative;
+  width: 427px;
+}
+#live_video_part .live_video_left .video_item {
+  filter: grayscale(1);
 }
 #live_video_part .live_video_left .hover_video {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
+  width: 100%;
+  height: 38%;
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
 }
 #live_video_part .live_video_left .hover_video a {
-  color: red;
-  text-align: center;
-  margin-right: 50%;
 }
 /* =============== live video part css end =============== */
