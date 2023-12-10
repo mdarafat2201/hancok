@@ -347,10 +347,45 @@ li {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 38%;
+  height: 45%;
+  padding: 25px;
+}
+#live_video_part .live_video_left .hover_video .overlye_icons {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  font-size: 50px;
+  color: var(--whiteColor);
+}
+#live_video_part .live_video_left .hover_video .movi_titel {
+  font-size: 18px;
   color: var(--whiteColor);
   font-family: var(--Barlow);
+  font-weight: 600;
+  margin-bottom: 5px;
 }
-#live_video_part .live_video_left .hover_video a {
+#live_video_part .live_video_left .hover_video .hoverle_left {
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.96px;
+}
+#live_video_part .live_video_left .hover_video .hoverle_right {
+  position: relative;
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#live_video_part .live_video_left .hover_video .hoverle_right::before {
+  position: absolute;
+  content: "";
+  bottom: 3px;
+  right: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--paymaryColor);
 }
 /* =============== live video part css end =============== */
