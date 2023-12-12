@@ -324,6 +324,7 @@ li {
   letter-spacing: 2.66px;
   margin-bottom: 70px;
   line-height: 50px;
+  margin-right: 65%;
   position: relative;
 }
 #live_video_part .video_taitel h2::before {
@@ -337,7 +338,7 @@ li {
 }
 #live_video_part .live_video_left {
   position: relative;
-  width: 427px;
+  width: 365px;
 }
 #live_video_part .live_video_left .video_item {
   filter: grayscale(1);
@@ -387,5 +388,28 @@ li {
   height: 8px;
   border-radius: 50%;
   background-color: var(--paymaryColor);
+}
+#live_video_part .team_titel .team_titel_text {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Barlow);
+  font-size: 25px;
+  font-weight: 500;
+  margin: 60px 0 22px;
+  letter-spacing: 2.25px;
+}
+#live_video_part .team .team_logo {
+  margin-bottom: 50px;
+}
+#live_video_part .tame {
+  text-align: center;
+  color: var(--whiteColor);
+  font-family: var(--Oswald);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 6px;
+}
+#live_video_part .tame .tame1 {
+  margin: 39px 0 121px;
 }
 /* =============== live video part css end =============== */
