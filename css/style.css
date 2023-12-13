@@ -413,3 +413,28 @@ li {
   margin: 39px 0 121px;
 }
 /* =============== live video part css end =============== */
+/* =============== game sela part css start =============== */
+#game_sela_part {
+  padding: 90px 0;
+  background-color: var(--secondary_background_color);
+}
+#game_sela_part .sela_tilel .sela_tilel_text {
+  position: relative;
+  color: var(--whiteColor);
+  text-align: right;
+  padding-left: 62%;
+  font-family: var(--Barlow);
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 2.66px;
+}
+#game_sela_part .sela_tilel .sela_tilel_text::before {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  right: 88px;
+  width: 80px;
+  height: 4px;
+  background-color: var(--paymaryColor);
+}
+/* =============== game sela part css end =============== */
