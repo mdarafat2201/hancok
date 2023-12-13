@@ -427,6 +427,7 @@ li {
   font-size: 27px;
   font-weight: 600;
   letter-spacing: 2.66px;
+  margin-bottom: 47px;
 }
 #game_sela_part .sela_tilel .sela_tilel_text::before {
   position: absolute;
@@ -436,5 +437,94 @@ li {
   width: 80px;
   height: 4px;
   background-color: var(--paymaryColor);
+}
+#game_sela_part .sela_dicscobion .sela_dicscobion_text {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.54px;
+  margin-top: 17px;
+}
+#game_sela_part .sela_dicscobion .sela_dicscobion_text1 {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin: 20px 0;
+}
+#game_sela_part .sela_dicscobion h5 {
+  margin-right: 10px;
+}
+#game_sela_part .sela_dicscobion .dicscaont_40 {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  background-color: var(--paymaryColor);
+}
+#game_sela_part .sela_dicscobion .prach {
+  color: #666;
+  position: relative;
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+}
+#game_sela_part .sela_dicscobion .prach::before {
+  position: absolute;
+  content: "";
+  bottom: 7px;
+  right: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #666;
+}
+#game_sela_part .sela_dicscobion .dicscaont_parch {
+  color: var(--whiteColor);
+  text-align: center;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 400;
+}
+#game_sela_part .hancok_titel .hancok_titel_text {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 20px;
+  font-weight: 500;
+}
+#game_sela_part .coustom_hancok {
+  background-color: #212121;
+  color: #fff;
+}
+#game_sela_part .coustom_hancok .hancok_ditels {
+  padding: 45px;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .game_titel__text {
+  color: var(--paymaryColor);
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  margin-bottom: 15px;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .game_titel__text1 {
+  color: var(--whiteColor);
+  font-family: var(--Barlow);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+#game_sela_part .coustom_hancok .hancok_ditels .hancok_dicskipont {
+  color: #666;
+  font-family: var(--Oswald);
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 16px;
 }
 /* =============== game sela part css end =============== */
